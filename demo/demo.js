@@ -142,6 +142,7 @@ class App extends PureComponent {
               onChange={this.onCropChange}
               onDragStart={this.onDragStart}
               onDragEnd={this.onDragEnd}
+              ruler={true}
               // renderSelectionAddon={this.renderSelectionAddon}
               // minWidth={100}
               // minHeight={100}
